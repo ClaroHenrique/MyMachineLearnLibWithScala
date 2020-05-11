@@ -1,0 +1,5 @@
+INFO  started: Metals version 0.8.0 in workspace '/home/claro_henrique/Documentos/github/CXLib/src'
+INFO  time: initialize in 2.01s
+WARN  no build tool detected in workspace '/home/claro_henrique/Documentos/github/CXLib/src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target for: /home/claro_henrique/Documentos/github/CXLib/src/main/scala/support/HelloWorld.scala
+INFO  shutting down Metals

@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/claro_henrique/Documentos/github/CXLib/src/main/scala/classifier/KNN.scala:11:12: not found: value validateData[0m
+[0m[[0m[31merror[0m] [0m[0m        if(validateData(dataFrame,label) == false){[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

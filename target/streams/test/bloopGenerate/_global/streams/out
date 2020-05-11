@@ -1,0 +1,4 @@
+[debug] [cxlib-test] Classpath dependencies List()
+[debug] [cxlib-test] Dependencies from configurations List(cxlib)
+[debug] Bloop wrote the configuration of project 'cxlib-test' to '/home/claro_henrique/Documentos/github/CXLib/.bloop/cxlib-test.json'
+[success] Generated .bloop/cxlib-test.json
