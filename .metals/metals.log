@@ -10121,3 +10121,493 @@ WARN  Could not find java sources in None. Java symbols will not be available.
 INFO  time: indexed workspace in 1.49s
 INFO  compiling mymachinelearnlibwithscala (7 scala sources)
 INFO  time: compiled mymachinelearnlibwithscala in 13s
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+INFO  started: Metals version 0.8.0 in workspace '/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala'
+INFO  time: initialize in 1.81s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher17103962260433173977/bsp.socket'...
+Waiting for the bsp connection to come up...
+INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher17103962260433173977/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher17103962260433173977/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/claro_henrique/.cache/metals/bsp.trace.json
+WARN  no build target for: /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala
+INFO  time: connected to build server in 0.95s
+INFO  Connected to Build server v1.4.0-RC1
+INFO  time: imported build in 0.17s
+WARN  Could not find java sources in None. Java symbols will not be available.
+INFO  time: indexed workspace in 3.06s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 2.29s
+something's wrong: no file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala in List[AnyVal]RangePosition(file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, 252, 252, 264)
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.97s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 1.09s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+mai 24, 2020 1:24:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 228
+INFO  time: compiled mymachinelearnlibwithscala in 1.52s
+ERROR scalafmt: /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala:16: error: ; expected but def found
+  public def convertToDouble(value: AnyVal): Double = {
+         ^
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.28s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 69ms
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 1.15s
+mai 24, 2020 1:25:43 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMAÇÕES: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+mai 24, 2020 1:25:44 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+mai 24, 2020 1:25:49 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMAÇÕES: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+mai 24, 2020 1:25:49 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:236)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:25)
+
+mai 24, 2020 1:25:50 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMAÇÕES: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+mai 24, 2020 1:25:50 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:236)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:25)
+
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.32s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.27s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 2.18s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.26s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.15s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.21s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.13s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.16s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.15s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.17s
+something's wrong: no file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala in List[List[AnyVal]]RangePosition(file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, 380, 380, 398)
+something's wrong: no file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala in List[List[AnyVal]]RangePosition(file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, 380, 380, 398)
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.93s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 1.02s
+something's wrong: no file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala in List[List[AnyVal]]RangePosition(file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, 380, 380, 398)
+something's wrong: no file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala in List[AnyVal]RangePosition(file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, 385, 385, 397)
+mai 24, 2020 1:32:44 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMAÇÕES: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+mai 24, 2020 1:32:44 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:236)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:25)
+
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.97s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.83s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.24s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.17s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.16s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.15s
+mai 24, 2020 1:33:35 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: offset 545, count -2, length 720
+java.lang.StringIndexOutOfBoundsException: offset 545, count -2, length 720
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:3304)
+	at java.base/java.lang.String.rangeCheck(String.java:280)
+	at java.base/java.lang.String.<init>(String.java:276)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:369)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:368)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:335)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:312)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:877)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:876)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:312)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:311)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:877)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:876)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:311)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+mai 24, 2020 1:33:35 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: offset 545, count -2, length 720
+java.lang.StringIndexOutOfBoundsException: offset 545, count -2, length 720
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:3304)
+	at java.base/java.lang.String.rangeCheck(String.java:280)
+	at java.base/java.lang.String.<init>(String.java:276)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:369)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:368)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:335)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:312)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:877)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:876)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:312)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:311)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:877)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:876)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:311)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.9s
+ERROR scalafmt: /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala:17: error: ; expected but ) found
+    rawData.map(row => convertRowToDouble(row)))
+                                               ^
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.11s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 86ms
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.94s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.2s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.13s
+something's wrong: no file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala in List[List[AnyVal]]RangePosition(file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, 45, 45, 63)
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.22s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.24s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.29s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.27s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.24s
+mai 24, 2020 1:37:44 AM scala.meta.internal.pc.Completions completionPosition
+GRAVE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1068)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:404)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:396)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:381)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:413)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:91)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+ERROR scalafmt: /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala:18: error: illegal start of declaration (possible cause: missing `=' in front of current method body)
+    rawData.map(row => convertRowToDouble(row))
+    ^
+INFO  shutting down Metals
+ERROR timeout: build server 'bloop' during shutdown
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+No more data in the client stdin, exiting...
+INFO  time: compiled mymachinelearnlibwithscala in 7.4s
+INFO  started: Metals version 0.8.0 in workspace '/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala'
+INFO  time: initialize in 2.45s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher16264163231841214640/bsp.socket'...
+Waiting for the bsp connection to come up...
+INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher16264163231841214640/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher16264163231841214640/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/claro_henrique/.cache/metals/bsp.trace.json
+INFO  time: connected to build server in 1.38s
+INFO  Connected to Build server v1.4.0-RC1
+WARN  no build target for: /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala
+INFO  time: imported build in 0.34s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+mai 24, 2020 1:39:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 2
+INFO  time: compiled mymachinelearnlibwithscala in 1.08s
+WARN  Could not find java sources in None. Java symbols will not be available.
+INFO  time: indexed workspace in 3.91s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.93s
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+INFO  started: Metals version 0.8.0 in workspace '/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala'
+INFO  time: initialize in 1.82s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher361262881915990333/bsp.socket'...
+Waiting for the bsp connection to come up...
+INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher361262881915990333/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher361262881915990333/bsp.socket...
+WARN  no build target for: /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/claro_henrique/.cache/metals/bsp.trace.json
+INFO  time: connected to build server in 2.02s
+INFO  Connected to Build server v1.4.0-RC1
+WARN  no build target for: /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/classifier/KNN.scala
+INFO  time: imported build in 0.99s
+mai 24, 2020 1:42:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 2
+WARN  Could not find java sources in None. Java symbols will not be available.
+INFO  time: indexed workspace in 3.77s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.8s
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+INFO  started: Metals version 0.8.0 in workspace '/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala'
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@67a26b87 rejected from java.util.concurrent.ThreadPoolExecutor@6da079b2[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 1]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO  started: Metals version 0.8.0 in workspace '/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala'
+INFO  time: initialize in 2.12s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6448950788913368946/bsp.socket'...
+Waiting for the bsp connection to come up...
+INFO  skipping build import with status 'Installed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6448950788913368946/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6448950788913368946/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/claro_henrique/.cache/metals/bsp.trace.json
+WARN  no build target for: /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala
+INFO  time: connected to build server in 1.69s
+INFO  Connected to Build server v1.4.0-RC1
+INFO  time: imported build in 0.55s
+WARN  Could not find java sources in None. Java symbols will not be available.
+INFO  time: indexed workspace in 4.66s
+INFO  compiling mymachinelearnlibwithscala (2 scala sources)
+INFO  time: compiled mymachinelearnlibwithscala in 5.56s
+mai 24, 2020 2:48:57 AM scala.meta.internal.pc.Completions completionPosition
+GRAVE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1068)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:404)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:396)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:381)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:413)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:91)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+mai 24, 2020 2:48:57 AM scala.meta.internal.pc.Completions completionPosition
+GRAVE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1068)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:404)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:396)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:381)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:413)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:91)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+mai 24, 2020 2:49:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 41
+mai 24, 2020 2:49:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 40
+mai 24, 2020 2:49:00 AM scala.meta.internal.pc.Completions completionPosition
+GRAVE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1068)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:404)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:396)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:381)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:25)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:413)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:91)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:101)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+mai 24, 2020 2:49:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 51
+ERROR scalafmt: /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala:18: error: illegal start of declaration (possible cause: missing `=' in front of current method body)
+    rawData.map(row => convertRowToDouble(row))
+    ^
+INFO  compiling mymachinelearnlibwithscala (2 scala sources)
+INFO  time: compiled mymachinelearnlibwithscala in 2.27s
+INFO  compiling mymachinelearnlibwithscala (2 scala sources)
+INFO  time: compiled mymachinelearnlibwithscala in 0.94s
+ERROR code navigation does not work for the file '/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala' because the SemanticDB file '/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/.bloop/mymachinelearnlibwithscala/bloop-bsp-clients-classes/classes-Metals-dIJG0pN4QGqUZ3jM9NFFiw==/META-INF/semanticdb/src/main/scala/datastructure/DataFrame.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala' because the SemanticDB file '/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/.bloop/mymachinelearnlibwithscala/bloop-bsp-clients-classes/classes-Metals-dIJG0pN4QGqUZ3jM9NFFiw==/META-INF/semanticdb/src/main/scala/datastructure/DataFrame.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+mai 24, 2020 2:50:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTraceNotification
+ERROR scalafmt: /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala:18: error: illegal start of declaration (possible cause: missing `=' in front of current method body)
+    rawData.map(row => convertRowToDouble(row))
+    ^
+INFO  compiling mymachinelearnlibwithscala (2 scala sources)
+INFO  time: compiled mymachinelearnlibwithscala in 1.25s
+INFO  compiling mymachinelearnlibwithscala (2 scala sources)
+INFO  Deduplicating compilation of mymachinelearnlibwithscala from bsp client 'Metals 0.8.0' (since 5m 4.832s)
+INFO  compiling mymachinelearnlibwithscala (2 scala sources)
+INFO  time: compiled mymachinelearnlibwithscala in 36s
+INFO  compiling mymachinelearnlibwithscala (2 scala sources)
+INFO  time: compiled mymachinelearnlibwithscala in 762μs
+INFO  compiling mymachinelearnlibwithscala (2 scala sources)
+INFO  time: compiled mymachinelearnlibwithscala in 7.98s
+mai 24, 2020 2:54:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTraceNotification
+mai 24, 2020 2:54:40 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTraceNotification
+mai 24, 2020 2:55:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTraceNotification
+mai 24, 2020 2:55:12 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTraceNotification
+mai 24, 2020 2:55:15 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTraceNotification
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+mai 24, 2020 2:55:35 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTraceNotification
+mai 24, 2020 2:55:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTraceNotification
+mai 24, 2020 2:55:41 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTraceNotification
+mai 24, 2020 2:55:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 308
+INFO  time: compiled mymachinelearnlibwithscala in 33s
+INFO  compiling mymachinelearnlibwithscala (3 scala sources)
+INFO  time: compiled mymachinelearnlibwithscala in 2.96s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.33s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.23s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.79s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.2s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.14s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.25s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.21s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 0.14s
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 1.54s
+mai 24, 2020 2:56:31 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTraceNotification
+mai 24, 2020 2:56:31 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMAÇÕES: Unsupported notification method: $/setTraceNotification
+something's wrong: no file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala in List[AnyVal]RangePosition(file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, 565, 565, 577)
+something's wrong: no file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala in List[List[AnyVal]]RangePosition(file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, 438, 438, 456)
+INFO  compiling mymachinelearnlibwithscala (1 scala source)
+INFO  time: compiled mymachinelearnlibwithscala in 1.57s
+something's wrong: no file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala in List[AnyVal]RangePosition(file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, 310, 310, 322)
+mai 24, 2020 2:58:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTÊNCIA: Unmatched cancel notification for request id 528
+something's wrong: no file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/classifier/KNN.scala in List[AnyVal]RangePosition(file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/classifier/KNN.scala, 1500, 1500, 1512)
+something's wrong: no file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala in List[AnyVal]RangePosition(file:///home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, 310, 310, 322)
