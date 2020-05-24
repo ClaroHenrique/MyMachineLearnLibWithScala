@@ -12,7 +12,7 @@ class KNN(var k: Int = 3, var metric: String = "euclidean") {
     new KNNModel(dataFrame, label, k, distanceFunction)
   }
 
-  private def selectDistanceFunction: (List[AnyVal], List[AnyVal]) => Double = {
+  private def selectDistanceFunction: (List[Double], List[Double]) => Double = {
     metric match {
       case "euclidean" => euclideanDistance
       case "manhattan" => manhattanDistance
@@ -20,8 +20,8 @@ class KNN(var k: Int = 3, var metric: String = "euclidean") {
   }
 
   private def euclideanDistance(
-      row1: List[AnyVal],
-      row2: List[AnyVal]
+      row1: List[Double],
+      row2: List[Double]
   ): Double = {
     var sum: Double = 0
     for ((e1, e2) <- (row1.map(convertToDouble) zip row2.map(convertToDouble))) {
@@ -31,8 +31,8 @@ class KNN(var k: Int = 3, var metric: String = "euclidean") {
   }
 
   private def manhattanDistance(
-      row1: List[AnyVal],
-      row2: List[AnyVal]
+      row1: List[Double],
+      row2: List[Double]
   ): Double = {
     var sum: Double = 0
     for ((e1, e2) <- (row1.map(convertToDouble) zip row2.map(convertToDouble))) {
@@ -58,7 +58,7 @@ class KNNModel(
     data: DataFrame,
     label: List[AnyVal],
     k: Int,
-    distanceFunction: (List[AnyVal], List[AnyVal]) => Double
+    distanceFunction: (List[Double], List[Double]) => Double
 ) extends Model {
 
   def predict(dataFrame: DataFrame): List[AnyVal] = {
@@ -67,7 +67,7 @@ class KNNModel(
 
   private case class Point(distance: Double, label: AnyVal)
 
-  private def predictSample(sample: List[AnyVal]): AnyVal = {
+  private def predictSample(sample: List[Double]): AnyVal = {
     var points = ArrayBuffer[Point]()
     for ((x, y) <- data.zip(label)) {
       points += new Point(distanceFunction(x, sample), y)
