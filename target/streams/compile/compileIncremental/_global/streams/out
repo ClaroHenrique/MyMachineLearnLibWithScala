@@ -1,48 +1,58 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/claro_henrique/Documentos/github/CXLib/src/main/scala/classifier/KNN.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/support/IrisDataSet.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/claro_henrique/Documentos/github/CXLib/src/main/scala/support/IrisDataSet.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/classifier/KNN.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/classifier/Classifier.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/datastructure/DataFrame.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/model/Model.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/metrics/AccuracyScore.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/support/HelloWorld.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/metrics/AccuracyScore.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/classifier/KNN.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/support/HelloWorld.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/support/IrisDataSet.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/classifier/Classifier.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/model/Model.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/classifier/KNNModel$Point$.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/support/IrisDataSet.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/model/Model.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/metrics/AccuracyScore.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/datastructure/DataFrame.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/classifier/KNNModel.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/classifier/Classifier.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/support/HelloWorld$.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/classifier/KNNModel$Point.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/support/HelloWorld.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/classifier/KNN$.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/metrics/AccuracyScore$.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/support/HelloWorld$delayedInit$body.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/support/IrisDataSet$.class, /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes/classifier/KNN.class)[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(classifier.KNNModel, classifier.KNNModel.Point, classifier.KNN, support.IrisDataSet)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(classifier.KNNModel, support.HelloWorld, metrics.AccuracyScore, classifier.Classifier, classifier.KNNModel.Point, classifier.KNN, model.Model, support.IrisDataSet, datastructure.DataFrame)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/home/claro_henrique/Documentos/github/CXLib/src/main/scala/support/IrisDataSet.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/classifier/KNN.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/classifier/Classifier.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/datastructure/DataFrame.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/model/Model.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/metrics/AccuracyScore.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/support/HelloWorld.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(classifier.KNNModel, classifier.KNNModel.Point, classifier.KNN, support.IrisDataSet)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/claro_henrique/Documentos/github/CXLib/src/main/scala/classifier/KNN.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/support/IrisDataSet.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: classifier.KNNModel, classifier.KNNModel.Point, classifier.KNN, support.IrisDataSet[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(classifier.KNNModel, support.HelloWorld, metrics.AccuracyScore, classifier.Classifier, classifier.KNNModel.Point, classifier.KNN, model.Model, support.IrisDataSet, datastructure.DataFrame)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/claro_henrique/Documentos/github/CXLib/src/main/scala/support/IrisDataSet.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/classifier/KNN.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/classifier/Classifier.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/datastructure/DataFrame.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/metrics/AccuracyScore.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/classifier/KNN.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/support/HelloWorld.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/model/Model.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/support/IrisDataSet.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/datastructure/DataFrame.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/metrics/AccuracyScore.scala, /home/claro_henrique/Documentos/github/CXLib/src/main/scala/support/HelloWorld.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/classifier/Classifier.scala, /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/src/main/scala/model/Model.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: classifier.KNNModel, support.HelloWorld, metrics.AccuracyScore, classifier.Classifier, classifier.KNNModel.Point, classifier.KNN, model.Model, support.IrisDataSet, datastructure.DataFrame[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 7 Scala sources to /home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/target/scala-2.13/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.2[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.2[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 1fd52b36 for Scala compiler version 2.13.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2cc0d52d for Scala compiler version 2.13.2[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/claro_henrique/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/claro_henrique/Documentos/github/CXLib/target/scala-2.13/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 8.299153428 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/target/scala-2.13/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 11.279224439 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from metrics.AccuracyScore...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: metrics.AccuracyScore[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(metrics.AccuracyScore)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of support.HelloWorld. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(metrics.AccuracyScore,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The metrics.AccuracyScore has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(metrics.AccuracyScore)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from classifier.KNNModel...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: classifier.KNNModel[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(classifier.KNNModel)[0m
 [0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of support.HelloWorld. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(classifier.KNNModel,ModifiedNames(changes = UsedName(finalize,[Default]), UsedName(Point,[Default]))) invalidates 1 classes due to The classifier.KNNModel has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]), UsedName(Point,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(classifier.KNNModel,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The classifier.KNNModel has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(classifier.KNNModel)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from classifier.KNN...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: classifier.KNN[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(classifier.KNN)[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of support.HelloWorld. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(classifier.KNN,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The classifier.KNN has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from support.HelloWorld...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: support.HelloWorld[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(support.HelloWorld)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(support.HelloWorld,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The support.HelloWorld has the following regular definitions changed:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(classifier.KNN)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(support.HelloWorld)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m        [0m

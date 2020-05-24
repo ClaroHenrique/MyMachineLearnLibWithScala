@@ -1,4 +1,4 @@
-[debug] [cxlib-test] Classpath dependencies List()
-[debug] [cxlib-test] Dependencies from configurations List(cxlib)
-[debug] Bloop wrote the configuration of project 'cxlib-test' to '/home/claro_henrique/Documentos/github/CXLib/.bloop/cxlib-test.json'
-[success] Generated .bloop/cxlib-test.json
+[debug] [mymachinelearnlibwithscala-test] Classpath dependencies List()
+[debug] [mymachinelearnlibwithscala-test] Dependencies from configurations List(mymachinelearnlibwithscala)
+[debug] Bloop wrote the configuration of project 'mymachinelearnlibwithscala-test' to '/home/claro_henrique/Documentos/github/MyMachineLearnLibWithScala/.bloop/mymachinelearnlibwithscala-test.json'
+[success] Generated .bloop/mymachinelearnlibwithscala-test.json
