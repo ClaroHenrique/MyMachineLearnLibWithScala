@@ -4,12 +4,12 @@ import scala.io.Source
 
 object IrisDataSet {
 
-  def loadDataFrame(): (DataFrame, List[AnyVal]) = {
+  def loadDataFrame(): DataFrame = {
     var source = Source.fromFile("iris.data").getLines.toList
     source = source.slice(0, source.size - 1)
     var allData = source.map(proccessLine).toList
 
-    (new DataFrame(allData.map(extractFeatures)), allData.map(extractLabel))
+    new DataFrame(allData.map(extractFeatures), allData.map(extractLabel))
   }
 
   private def proccessLine(line: String): List[AnyVal] = {

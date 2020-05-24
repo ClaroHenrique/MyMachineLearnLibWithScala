@@ -8,9 +8,9 @@ import datastructure.DataTypes.DataRow
 
 class KNN(var k: Int = 3, var metric: String = "euclidean") {
 
-  def fit(dataFrame: DataFrame, label: List[AnyVal]): KNNModel = {
+  def fit(dataFrame: DataFrame): KNNModel = {
     var distanceFunction = selectDistanceFunction
-    new KNNModel(dataFrame, label, k, distanceFunction)
+    new KNNModel(dataFrame, k, distanceFunction)
   }
 
   private def selectDistanceFunction: (DataRow, DataRow) => Double = {
@@ -43,7 +43,6 @@ class KNN(var k: Int = 3, var metric: String = "euclidean") {
 
 class KNNModel(
     data: DataFrame,
-    label: List[AnyVal],
     k: Int,
     distance: (DataRow, DataRow) => Double
 ) extends Model {
@@ -56,7 +55,7 @@ class KNNModel(
 
   private def predictSample(sample: DataRow): AnyVal = {
     var points = ArrayBuffer[Point]()
-    for ((x, y) <- data.zip(label)) {
+    for ((x, y) <- data.zip(data.getLabel())) {
       points += new Point(distance(x, sample), y)
     }
     points = points.sortWith((a: Point, b: Point) => a.distance < b.distance)

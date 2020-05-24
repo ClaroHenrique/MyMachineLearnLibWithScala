@@ -1,12 +1,13 @@
 package datastructure
 import datastructure.DataTypes.DataRow
 
-class DataFrame(rawData: List[List[AnyVal]]) {
+class DataFrame(rawData: List[List[AnyVal]], label: List[AnyVal] = null) {
   val data = DataFrameSupport.processRawData(rawData)
 
   def apply(row: Int, column: Int): Double = data(row)(column)
   def apply(row: Int): DataRow = data(row)
-  def getData = { data }
+  def getData() = { data }
+  def getLabel() = { label }
   def length: Int = data.length
   def zip(other: List[AnyVal]): List[(DataRow, AnyVal)] = {
     data.zip(other)
